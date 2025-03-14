@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\Desktop\Долги\Практическа №8\bin\Debug\Практическа №8.exe.config
+C:\Users\Дмитрий\Desktop\Долги\Практическа №8\bin\Debug\Практическа №8.exe
+C:\Users\Дмитрий\Desktop\Долги\Практическа №8\bin\Debug\Практическа №8.pdb
+C:\Users\Дмитрий\Desktop\Долги\Практическа №8\obj\Debug\Практическа №8.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\Долги\Практическа №8\obj\Debug\Практическа №8.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\Долги\Практическа №8\obj\Debug\Практическа №8.exe
+C:\Users\Дмитрий\Desktop\Долги\Практическа №8\obj\Debug\Практическа №8.pdb
