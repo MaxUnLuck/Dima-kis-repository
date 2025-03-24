@@ -25,19 +25,24 @@ namespace Практическа_7._1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)// экзит
+        {
+            Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)//абоут
         {
 
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e)//инпут
         {
-
+            Input input = new Input();
+            input.Show();
         }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void ButtonMouse(object sender, MouseEventArgs e)
         {
-
+            ButtonInput.Opacity = 20;
         }
     }
 }

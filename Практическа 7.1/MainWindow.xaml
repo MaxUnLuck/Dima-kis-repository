@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/i.webp"/>
         </Grid.Background>
-        <Button Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="720,16,0,0" VerticalAlignment="Top" Height="50" Width="70" Click="Button_Click" RenderTransformOrigin="0.524,0.491">
+        <Button Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="0,161,0,0" VerticalAlignment="Top" Height="50" Width="70" Click="Button_Click" RenderTransformOrigin="0.524,0.491">
             <Button.BorderBrush>
                 <ImageBrush/>
             </Button.BorderBrush>
@@ -18,8 +18,8 @@
                 <ImageBrush ImageSource="/icons8-выход-50.png"/>
             </Button.Background>
         </Button>
-        <Label Content="Exit" HorizontalAlignment="Left" Margin="737,0,0,0" VerticalAlignment="Top" Width="47" Grid.IsSharedSizeScope="True" Height="33" OpacityMask="#FF9FDCFF" Foreground="#FF74A2E0"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="14,12,0,0" VerticalAlignment="Top" Height="51" Width="48" Click="Button_Click_1">
+        <Label Content="Exit" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Width="47" Grid.IsSharedSizeScope="True" Height="33" OpacityMask="#FF9FDCFF" Foreground="#FF74A2E0" FontSize="20"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="11,45,0,0" VerticalAlignment="Top" Height="51" Width="48" Click="Button_Click_1">
             <Button.BorderBrush>
                 <ImageBrush/>
             </Button.BorderBrush>
@@ -27,20 +27,21 @@
                 <ImageBrush ImageSource="/icons8-about-48.png"/>
             </Button.Background>
         </Button>
-        <Label Content="About" HorizontalAlignment="Left" Margin="16,0,0,0" VerticalAlignment="Top" Height="23" Width="44" Foreground="#FF74A2E0"/>
-        <Button Content="" Margin="380,238,271,127" Click="Button_Click_2">
+        <Label Content="About" HorizontalAlignment="Left" Margin="9,12,0,0" VerticalAlignment="Top" Height="33" Width="61" Foreground="#FF74A2E0" FontSize="18"/>
+        <Button x:Name="ButtonInput" Content="" Margin="718,161,0,204" Click="Button_Click_2" MouseEnter="ButtonMouse" Height="69" Width="82">
             <Button.BorderBrush>
                 <ImageBrush/>
             </Button.BorderBrush>
             <Button.Background>
-                <ImageBrush ImageSource="/icons8-input-48.png"/>
+                <ImageBrush ImageSource="/icons8-input-48.png" Opacity="0.9"/>
             </Button.Background>
         </Button>
-        <Label Content="Input" HorizontalAlignment="Left" Height="42" Margin="442,209,0,0" VerticalAlignment="Top" Width="127" Foreground="Black" FontSize="22">
+        <Label Content="Input" Margin="718,125,0,270" Foreground="#FF8EC6F5" FontSize="22">
             <Label.Background>
                 <ImageBrush/>
             </Label.Background>
         </Label>
+        <Label Content="Calculator" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Width="228" Foreground="#FF008AFF" FontFamily="Cascadia Mono SemiBold"/>
 
     </Grid>
 </Window>

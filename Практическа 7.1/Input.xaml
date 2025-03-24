@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Практическа_7._1"
         mc:Ignorable="d"
-        Title="Input" Height="450" Width="800">
+        Title="Input" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/i (1).webp"/>
         </Grid.Background>
-        <Button Content="" HorizontalAlignment="Left" Margin="573,217,0,0" VerticalAlignment="Top" Height="90" Width="94" FontFamily="Segoe UI Variable Display Semibold" Padding="1,1,1,1" Click="Button_Click_1">
+        <Button x:Name="Calc" Content="" HorizontalAlignment="Left" Margin="474,275,0,0" VerticalAlignment="Top" Height="90" Width="94" FontFamily="Segoe UI Variable Display Semibold" Padding="1,1,1,1" Click="Button_Click_1">
             <Button.BorderBrush>
                 <ImageBrush/>
             </Button.BorderBrush>
@@ -18,7 +18,63 @@
                 <ImageBrush ImageSource="/icons8-calculator-100.png"/>
             </Button.Background>
         </Button>
-        <Label Content="Calc" HorizontalAlignment="Left" Margin="600,0,0,0" VerticalAlignment="Center" Width="53" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Calc" HorizontalAlignment="Left" Margin="495,261,0,0" VerticalAlignment="Top" Width="52" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="CalcTB" HorizontalAlignment="Left" Height="77" Margin="354,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="205" RenderTransformOrigin="0.5,0.5" TextChanged="TextBox_TextChanged">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-26.356"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Num1TextBox" HorizontalAlignment="Left" Height="31" Margin="151,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" RenderTransformOrigin="0.5,0.5" TextChanged="Num1TextBox_TextChanged">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="12.554"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="Num2TextBox" HorizontalAlignment="Left" Height="31" Margin="193,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" RenderTransformOrigin="0.5,0.5" TextChanged="TextBox_TextChanged_1">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="13.456"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Введите числа" HorizontalAlignment="Left" Height="43" Margin="240,0,0,0" VerticalAlignment="Top" Width="302" FontSize="20"/>
+        <Label Content="Num1" HorizontalAlignment="Left" Height="40" Margin="162,13,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0.5,0.5" FontSize="18">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="13.048"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Num2" HorizontalAlignment="Left" Height="29" Margin="238,139,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0.5,0.5" FontSize="18">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="12.976"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <RadioButton x:Name="Division" Content="Division" HorizontalAlignment="Left" Height="28" Margin="0,261,0,0" VerticalAlignment="Top" Width="133" FontSize="16" Checked="RadioButton_Checked"/>
+        <RadioButton x:Name="Comparison" Content="Comparison" HorizontalAlignment="Left" Height="28" Margin="0,287,0,0" VerticalAlignment="Top" Width="133" FontSize="16"/>
+        <RadioButton x:Name="Composition" Content="Composition" HorizontalAlignment="Left" Height="22" Margin="0,232,0,0" VerticalAlignment="Top" Width="116" FontSize="16" Checked="RadioButton_Checked_1"/>
+        <RadioButton x:Name="Rounding" Content="Rounding" HorizontalAlignment="Left" Height="28" Margin="0,320,0,0" VerticalAlignment="Top" Width="133" FontSize="16"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="49" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
