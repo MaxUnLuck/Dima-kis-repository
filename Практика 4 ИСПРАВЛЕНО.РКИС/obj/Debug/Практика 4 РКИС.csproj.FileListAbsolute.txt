@@ -1,0 +1,20 @@
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\bin\Debug\Практика 4 РКИС.exe.config
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\bin\Debug\Практика 4 РКИС.exe
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\bin\Debug\Практика 4 РКИС.pdb
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\obj\Debug\Практика 4 РКИС.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\obj\Debug\Практика_4_РКИС.Properties.Resources.resources
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\obj\Debug\Практика 4 РКИС.csproj.GenerateResource.cache
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\obj\Debug\Практика 4 РКИС.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\obj\Debug\Практика 4 РКИС.exe
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\obj\Debug\Практика 4 РКИС.pdb
+C:\Users\Дмитрий\Desktop\Долги\Практика 4 РКИС\obj\Debug\MatrixNegativeCounter.MainForm.resources
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\bin\Debug\Практика 4 РКИС.exe.config
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\bin\Debug\Практика 4 РКИС.exe
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\bin\Debug\Практика 4 РКИС.pdb
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\obj\Debug\Практика 4 РКИС.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\obj\Debug\Практика_4_РКИС.Properties.Resources.resources
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\obj\Debug\Практика 4 РКИС.csproj.GenerateResource.cache
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\obj\Debug\Практика 4 РКИС.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\obj\Debug\Практика 4 РКИС.exe
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\obj\Debug\Практика 4 РКИС.pdb
+C:\Users\Дмитрий\Desktop\RKIS\Практика 4 ИСПРАВЛЕНО.РКИС\obj\Debug\MatrixNegativeElements.Form1.resources
